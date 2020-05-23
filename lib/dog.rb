@@ -9,7 +9,7 @@ class Dog
     @@all
   end
   def self.print_all
-    @@all.each {|dog| puts dog.to_s}
+    @@all.each {|dog| puts dog}
     @@all
   end
   def save
