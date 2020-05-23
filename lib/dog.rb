@@ -11,10 +11,10 @@ class Dog
   def self.print_all
     @@all.each {|dog| puts dog}
   end
-  def self.save
+  def save
     @@all << self
   end
-  def self.clear_all
+  def clear_all
     @@all.clear
   end
 end
